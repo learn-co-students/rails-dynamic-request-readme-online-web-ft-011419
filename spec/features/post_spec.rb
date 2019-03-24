@@ -20,3 +20,7 @@ describe 'navigate' do
     expect(page).to have_css("p", text: "My post desc")
   end
 end
+
+# spec/features/post_spec.rb
+
+require 'rails_helper'
